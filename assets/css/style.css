@@ -1,1 +1,215 @@
+/* === Great Mega Forex - KojoForex Inspired Design === */
 
+:root {
+
+  --primary: #0d6efd;
+
+  --dark-bg: #010913;
+
+  --accent: #1fb6ff;
+
+  --muted: #a0a9b5;
+
+  --card-bg: rgba(255, 255, 255, 0.04);
+
+}
+
+body {
+
+  font-family: 'Poppins', system-ui, sans-serif;
+
+  background: radial-gradient(circle at top left, #06152a 0%, #010913 100%);
+
+  color: #eaf2ff;
+
+  margin: 0;
+
+  padding: 0;
+
+  line-height: 1.6;
+
+  overflow-x: hidden;
+
+}
+
+.navbar {
+
+  background: rgba(5, 10, 20, 0.75);
+
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+}
+
+.navbar a {
+
+  color: #eaf2ff;
+
+  text-transform: uppercase;
+
+  font-weight: 500;
+
+  letter-spacing: 0.5px;
+
+}
+
+.navbar a:hover {
+
+  color: var(--accent);
+
+}
+
+.hero {
+
+  position: relative;
+
+  background: linear-gradient(160deg, #020a1b 0%, #04162d 100%);
+
+  color: #fff;
+
+  padding: 120px 0;
+
+  text-align: center;
+
+  overflow: hidden;
+
+}
+
+.hero h1 {
+
+  font-size: 2.8rem;
+
+  font-weight: 700;
+
+  color: #fff;
+
+  text-shadow: 0 5px 25px rgba(0, 132, 255, 0.4);
+
+}
+
+.hero p {
+
+  font-size: 1.1rem;
+
+  max-width: 700px;
+
+  margin: 15px auto 35px;
+
+  color: #c7d2e1;
+
+}
+
+.hero iframe {
+
+  border: none;
+
+  border-radius: 12px;
+
+  width: 80%;
+
+  max-width: 720px;
+
+  height: 405px;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+
+}
+
+.btn-primary {
+
+  background: var(--accent);
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 30px;
+
+  padding: 12px 28px;
+
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+
+}
+
+.btn-primary:hover {
+
+  background: #0091dd;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 20px rgba(31, 182, 255, 0.25);
+
+}
+
+section.links {
+
+  background: #020e22;
+
+  padding: 80px 20px;
+
+  text-align: center;
+
+}
+
+.links h2 {
+
+  color: #fff;
+
+  font-weight: 700;
+
+  margin-bottom: 20px;
+
+}
+
+.link-card {
+
+  background: var(--card-bg);
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  margin: 10px;
+
+  display: inline-block;
+
+  width: 300px;
+
+  color: #d7e4ff;
+
+  transition: 0.3s;
+
+}
+
+.link-card:hover {
+
+  background: rgba(255, 255, 255, 0.06);
+
+  transform: translateY(-5px);
+
+}
+
+.site-footer {
+
+  background: #010913;
+
+  color: #9ab0ca;
+
+  padding: 40px 0;
+
+  text-align: center;
+
+  font-size: 14px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+}
+
+.site-footer a {
+
+  color: var(--accent);
+
+}
