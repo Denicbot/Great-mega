@@ -1,0 +1,33 @@
+##################################################
+
+#
+
+# Custom .htaccess for MegaTrades
+
+# Enables clean URLs (no .php)
+
+# Keeps default error handling
+
+#
+
+##################################################
+
+RewriteEngine On
+
+# Serve .php files without showing .php in URL
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L]
+
+# Default index files
+
+DirectoryIndex index.php index.html index.htm index2.html
+
+# Custom error pages
+
+ErrorDocument 403 https://errors.infinityfree.net/errors/403/
+
+ErrorDocument 404 https://errors.infinityfree.net/errors/404/
+
+ErrorDocument 500 https://errors.infinityfree.net/errors/500/
